@@ -1,4 +1,4 @@
-from distutils.core import setup, find_packages
+from setuptools import setup, find_packages
 
 setup(
     name='hodl_qiskit',
@@ -8,7 +8,7 @@ setup(
     author='Ayush Tambde',
     author_email='tambdeayush@gmail.com',
     license='MIT',
-    package_dir={'':'src'},
+    package_dir={'':'.'},
     packages=find_packages(),
     classifiers=[
         'Development Status :: Production',
