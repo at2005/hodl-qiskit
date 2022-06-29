@@ -9,7 +9,6 @@ setup(
     author_email='tambdeayush@gmail.com',
     license='MIT',
     packages=find_packages(),
-package_dir={'':'src'},
     classifiers=[
         'Development Status :: Production',
         'Intended Audience :: Science/Research',
