@@ -36,7 +36,7 @@ class HODLOracle:
         f = open("program.hodl", "w")
         f.write(result)
         f.close()
-        os.system("qc --target qasm -o out.qasm program.hodl")
+        os.system("hodl --target qasm -o out.qasm program.hodl")
         circ = QuantumCircuit.from_qasm_file("out.qasm")
         os.remove("program.hodl")
         os.remove("out.qasm")
