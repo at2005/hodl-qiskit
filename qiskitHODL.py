@@ -43,7 +43,7 @@ class HODLOracle:
         return circ
         
 ### takes an oracle and outputs a HODL object      
-def compile_oracle(code):
+def init_oracle(code):
     fname = re.search("function (.*)\(", code).group(1)
     params = re.search("\((.*)\)",code).group(1)
     params = params.split(",")
