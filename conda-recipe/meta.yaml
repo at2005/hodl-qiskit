@@ -1,11 +1,10 @@
 
 package:
    name: "hodl-qiskit"
-   version: 1.0.0
+   version: 1.0.1
 
 source:
-#   git_url: https://github.com/at2005/hodl-qiskit.git
-   path: ../
+   git_url: https://github.com/at2005/hodl-qiskit.git
 
 requirements:
    build:

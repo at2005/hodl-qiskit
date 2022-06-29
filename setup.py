@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='hodl-qiskit',
-    version='1.0.0',    
+    version='1.0.1',    
     description='A Qiskit Python package to call HODL inline',
     url='https://github.com/at2005/hodl-qiskit',
     author='Ayush Tambde',
