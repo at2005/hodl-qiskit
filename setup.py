@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='hodl-qiskit',
-    version='1.0.1',    
+    name='hodl_qiskit',
+    version='1.0.3',    
     description='A Qiskit Python package to call HODL inline',
     url='https://github.com/at2005/hodl-qiskit',
     author='Ayush Tambde',
@@ -17,6 +17,5 @@ setup(
         'Operating System :: POSIX :: Linux',
 	'Operating System :: MacOS'
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.8',
     ],
 )
